@@ -4,21 +4,15 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background-color: #f2f2f2;
 }
 
 header {
-    background-color: #f2f2f2;
-    height: 80px;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
+    background-color: white;
+    position: fixed;
+    width: 100%;
 }
 
 nav img {
@@ -26,23 +20,48 @@ nav img {
 }
 
 nav a {
+    font-family: "Darker Grotesque", sans-serif;
     text-decoration: none;
     color: black;
-    font-family: "Darker Grotesque", sans-serif;
     font-size: 20px;
-    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: auto;
 }
 
 /* Front Page */
 
 .frontPage {
-    background-image: url("../images/product-overview_image.jpg");
+    background-image: url("../images/frontPageHeader.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-position-x: -10px;
     width: 100%;
     height: 80vh;
-    text-align: center;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.frontPage h1 {
+    color: white;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
 }
 
 .frontPage a {
@@ -51,13 +70,7 @@ nav a {
     color: black;
     padding: 15px 30px;
     background-color: white;
-    border-radius: 10px;
-}
-
-.frontPage h1 {
-    color: white;
-    font-family: "Darker Grotesque", sans-serif;
-    font-size: 50px;
+    border-radius:10px;
 }
 
 .selectedProducts {

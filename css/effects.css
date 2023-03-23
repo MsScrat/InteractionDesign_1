@@ -1,6 +1,6 @@
 
 .navLinks:hover {
-    border-bottom: 2px solid #62736F;
+    opacity: 50%;
 }
 
 .frontPage a:hover {
