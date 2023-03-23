@@ -1,6 +1,8 @@
 
 @font-face {
-    font-family: "Darker Grotesque", sans-serif;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Days One', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -45,7 +47,6 @@ nav ul li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-position-x: -10px;
     width: 100%;
     height: 80vh;
     padding-top: 100px;
@@ -58,7 +59,7 @@ nav ul li {
 
 .frontPage h1 {
     color: white;
-    font-family: "Darker Grotesque", sans-serif;
+    font-family: "Days One", sans-serif;
     font-size: 60px;
     font-weight: bold;
     margin: 0;
@@ -68,7 +69,7 @@ nav ul li {
     text-decoration: none;
     font-family: "Darker Grotesque", sans-serif;
     color: black;
-    padding: 15px 30px;
+    padding: 15px 50px;
     background-color: white;
     border-radius:10px;
 }
