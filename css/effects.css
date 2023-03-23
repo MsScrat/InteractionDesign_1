@@ -1,0 +1,9 @@
+
+.navLinks:hover {
+    border-bottom: 2px solid #62736F;
+}
+
+.frontPage a:hover {
+    background-color: white;
+    opacity: 80%;
+}
