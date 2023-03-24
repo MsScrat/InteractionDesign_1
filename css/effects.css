@@ -17,3 +17,14 @@
 .products:hover {
     border: 1px solid white;
 }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
