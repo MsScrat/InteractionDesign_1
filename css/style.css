@@ -74,10 +74,46 @@ nav ul li {
     border-radius:10px;
 }
 
+.bikerEdition {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.bikerEdition img,
+.bikerCard {
+    height: 500px;
+    width: 400px;
+}
+
+.bikerEdition a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+}
+
+.bikerCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
 .selectedProducts {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.featured h2 {
+    font-family: "Days One", sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin: 45px 0 25px 0;
 }
 
 .selectedProducts img {
@@ -89,12 +125,39 @@ nav ul li {
 .products {
     display: flex;
     flex-direction: column;
-    text-align: center;
     height: 250px;
     width: 200px;
 }
 
-.products p {
-    font-weight: bold;
+
+
+/* Review Page */
+
+.reviewPage {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.reviewPage img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviewPageContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 30px;
+    gap: 20px;
+    height: 75vh;
+}
+
+.testPerson1,
+.testPerson2,
+.testPerson3 {
+    background-color: white;
+    padding: 30px 30px;
 }
 
