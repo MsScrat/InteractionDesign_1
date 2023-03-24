@@ -136,9 +136,8 @@ nav ul li {
 }
 
 .selectedProducts {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(6, 6fr);
     width: 100%;
     text-align: center;
 
@@ -166,7 +165,7 @@ nav ul li {
 }
 
 
-/* For Him Page */
+/* For Him/For Her Page */
 
 
 .mensJackets {
@@ -181,9 +180,14 @@ nav ul li {
     margin: 20px 0;
 }
 
-.mensJackets p {
+.mensJackets p,
+.displayInfo {
     font-family: "Darker Grotesque", sans-serif;
     font-size: 20px;
+}
+
+.displayInfo {
+    margin-left: 20px;
 }
 
 
