@@ -3,6 +3,10 @@
     opacity: 50%;
 }
 
+.active {
+    opacity: 25%;
+}
+
 .frontPage a:hover {
     background-color: white;
     opacity: 80%;
@@ -18,13 +22,11 @@
     border: 1px solid white;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.connect a:hover {
+    opacity: 50%;
 }
 
-.active,
-.demo:hover {
-    opacity: 1;
+.familyInfo a:hover {
+    background-color: black;
+    color: white;
 }

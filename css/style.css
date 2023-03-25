@@ -75,6 +75,7 @@ nav ul li {
     text-decoration: none;
     font-family: "Darker Grotesque", sans-serif;
     font-size: 15px;
+    font-weight: bold;
     color: black;
     padding: 15px 50px;
     background-color: white;
@@ -130,9 +131,9 @@ nav ul li {
 
 
 .featured h2 {
-    font-family: "Darker Grotesque", sans-serif;
+    font-family: "Days One", sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     margin: 50px 0 25px 0;
 }
 
@@ -172,22 +173,32 @@ nav ul li {
 }
 
 .newsletter h2 {
-    font-family: "Darker Grotesque", sans-serif;
+    font-family: "Days One", sans-serif;
     font-size: 30px;
 }
 
-.newsletter input {
+#email {
     width: 300px;
     height: 30px;
     border: 1px solid lightgray;
     border-radius: 10px;
 }
 
+#submit {
+    background-color: white;
+    border: 1px solid lightgray;
+    color: black;
+    font-family: "Darker Grotesque", sans-serif;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
 .newsletter p {
     font-family: "Darker Grotesque", sans-serif;
     font-size: 18px;
     width: 250px;
-    margin: 0 auto;
+    margin: 7px auto;
 }
 
 
@@ -225,7 +236,7 @@ nav ul li {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 0 20px;
+    margin: 0 50px;
 }
 
 .otherImages {
@@ -236,7 +247,7 @@ nav ul li {
 }
 
 .productImage img {
-    width: 500px;
+    width: 450px;
     height: 70vh;
     object-fit: contain;
     background-color: white;
@@ -278,8 +289,12 @@ nav ul li {
     background-color: #62736F;
     font-family: "Darker Grotesque", sans-serif;
     font-size: 20px;
-    padding: 10px 70px;
+    padding: 10px 100px;
     border-radius: 10px;
+}
+
+.additional p {
+    font-size: 15px;
 }
 
 .colorButtons label,
@@ -298,44 +313,204 @@ nav ul li {
     background-color: gray;
 }
 
+/*------------------------*/
 
-/* About Page */
+.productFeatures {
+    margin: 30px 50px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
 
-.about {
+.productFeatures h2,
+.productCare h2,
+.otherProducts h2 {
+    font-family: "Days One", sans-serif;
+    font-size: 20px;
+}
+
+.productFeatures ul {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+    gap: 100px;
+}
+
+.productFeatures li,
+.productCare p {
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.productCare {
+    margin: 30px 50px;
+    border-bottom: 1px solid lightgray;
+}
+
+.productCare p {
+    margin: 0;
+}
+
+.otherProducts h2 {
     text-align: center;
 }
 
-.aboutImage img {
-    height: 500px;
-    width: 500px;
-    object-fit: cover;
+
+/* About Page */
+
+
+.about {
+    background-image: url(../images/about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.aboutInfo {
-    background-color: white;
-    height: 500px;
-    width: 500px;
-}
-
-.aboutInfo h2 {
+.about h1 {
+    color: white;
     font-family: "Days One", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
 }
 
-.aboutInfo p {
+.about h2 {
+    color: white;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    margin: 0;
+}
+
+.ourFamily {
+    height: 60vh;
+    width: 80vw;
+    background-color: white;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ourFamily img {
+    height: 60vh;
+    width: 500px;
+}
+
+.familyInfo {
+    height: 500px;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.familyInfo h2,
+.values h2 {
+    font-family: "Days One", sans-serif;
+    font-size: 30px;
+}
+
+.familyInfo p {
     font-family: "Darker Grotesque", sans-serif;
     font-size: 20px;
-    padding: 5px;
 }
 
+.familyInfo a {
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.values {
+    margin: 50px 0;
+}
+
+.values h2,
+.arcticFund {
+    text-align: center;
+}
+
+.values p {
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.arcticFund {
+    background-image: url(../images/polarbear.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 60vh;
+    margin: 0 auto;
+}
+
+.arcticFund h2 {
+    font-family: "Days One", sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+}
+
+.arcticFund h3 {
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
 
 
 /* Footer */
 
+
 footer {
     background-color: #d9d9d9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+    margin-top: 20px;
 }
+
+footer img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+footer h4 {
+    font-family: "Days One", sans-serif;
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+}
+
+.connect a {
+    color: black;
+    font-family: "Darker Grotesque", sans-serif;
+    text-decoration: none;
+}
+
+.location p {
+    font-family: "Darker Grotesque", sans-serif;
+    margin: 0;
+}
+
+
 
