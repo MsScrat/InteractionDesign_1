@@ -255,6 +255,9 @@ nav ul li {
 
 .productInfo {
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .productInfo h1 {
@@ -296,36 +299,36 @@ nav ul li {
 }
 
 
+/* About Page */
 
-/* Review Page */
-
-
-.reviewPage {
-    padding-top: 100px;
-    text-align: center;
-}
-
-.reviewPage img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.reviewPageContent {
+.about {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 30px;
-    gap: 20px;
-    height: 75vh;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
-.testPerson1,
-.testPerson2,
-.testPerson3 {
+.aboutImage img {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.aboutInfo {
     background-color: white;
-    padding: 30px 30px;
+    height: 500px;
+    width: 500px;
+}
+
+.aboutInfo h2 {
+    font-family: "Days One", sans-serif;
+}
+
+.aboutInfo p {
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 20px;
+    padding: 5px;
 }
 
 
