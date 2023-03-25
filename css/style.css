@@ -17,7 +17,8 @@ header {
     width: 100%;
 }
 
-nav img {
+nav img,
+footer img {
     width: 100px;
 }
 
@@ -72,7 +73,7 @@ nav ul li {
 
 .frontPage a {
     text-decoration: none;
-    font-family: "Days One", sans-serif;
+    font-family: "Darker Grotesque", sans-serif;
     font-size: 15px;
     color: black;
     padding: 15px 50px;
@@ -129,9 +130,9 @@ nav ul li {
 
 
 .featured h2 {
-    font-family: "Days One", sans-serif;
+    font-family: "Darker Grotesque", sans-serif;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     margin: 50px 0 25px 0;
 }
 
@@ -165,6 +166,32 @@ nav ul li {
 }
 
 
+.newsletter {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.newsletter h2 {
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 30px;
+}
+
+.newsletter input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.newsletter p {
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 18px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+
+
 /* For Him/For Her Page */
 
 
@@ -193,35 +220,79 @@ nav ul li {
 
 /* Product Detal Page */
 
+
 .productDetail {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 60px
+    margin: 0 20px;
 }
 
-.productDetail img {
+.otherImages {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 5px;
+}
+
+.productImage img {
     width: 500px;
     height: 70vh;
     object-fit: contain;
     background-color: white;
     padding: 50px;
+    border-radius: 5px;
+}
+
+.secondImage {
+    width: 150px;
+    height: 17.6vh;
+    object-fit: contain;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .productInfo {
-    width: 70vh;
+    margin-left: 20px;
 }
 
 .productInfo h1 {
     font-family: "Days One", sans-serif;
     font-size: 40px;
-    margin: 0;
+    margin-top: 0;
 }
 
 .productInfo p {
     font-family: "Darker Grotesque", sans-serif;
     font-size: 20px;
-    margin: 10px 0 0 0;
+    margin: 0;
+}
+
+.productInfo a {
+    text-decoration: none;
+    color: white;
+    background-color: #62736F;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 20px;
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+
+.colorButtons label,
+.newsletter label {
+    display: none;
+}
+
+
+/* Color buttons - color */
+
+#white {
+    background-color: white;
+}
+
+#gray {
+    background-color: gray;
 }
 
 
@@ -255,5 +326,13 @@ nav ul li {
 .testPerson3 {
     background-color: white;
     padding: 30px 30px;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #d9d9d9;
 }
 
