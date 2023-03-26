@@ -54,6 +54,7 @@ nav ul li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-position-y: -20px;
     width: 100%;
     height: 80vh;
     display: flex;
@@ -84,27 +85,28 @@ nav ul li {
 
 
 
-.bikerEdition {
+.skiEdition {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 70px;
 }
 
-.bikerEdition img,
-.bikerCard {
+.skiEdition img,
+.skiCard {
     height: 500px;
     width: 400px;
+    object-fit: cover;
 }
 
-.bikerEdition a {
+.skiEdition a {
     text-decoration: none;
     color: white;
     background-color: black;
     padding: 10px 30px;
 }
 
-.bikerCard {
+.skiCard {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,18 +115,18 @@ nav ul li {
     text-align: center;
 }
 
-.bikerCard h2 {
+.skiCard h2 {
     font-family: "Days One", sans-serif;
     font-size: 30px;
     margin: 0 20px;
 }
 
-.bikerCard a,
-.bikerCard p {
+.skiCard a,
+.skiCard p {
     font-family: "Darker Grotesque", sans-serif;
 }
 
-.bikerCard p {
+.skiCard p {
     margin: 25px 0;
 }
 
@@ -362,6 +364,7 @@ nav ul li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-position-y: -50px;
     width: 100%;
     height: 80vh;
     display: flex;
@@ -370,7 +373,8 @@ nav ul li {
     align-items: center;
 }
 
-.about h1 {
+.about h1,
+.contact h1 {
     color: white;
     font-family: "Days One", sans-serif;
     font-size: 50px;
@@ -378,7 +382,8 @@ nav ul li {
     margin: 0;
 }
 
-.about h2 {
+.about h2,
+.contact h2 {
     color: white;
     font-family: "Darker Grotesque", sans-serif;
     font-size: 40px;
@@ -470,6 +475,22 @@ nav ul li {
     font-size: 30px;
     color: white;
     margin: 0;
+}
+
+
+/* Contact */
+
+.contact {
+    background-image: url(../images/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 

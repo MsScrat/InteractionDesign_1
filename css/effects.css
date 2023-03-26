@@ -12,7 +12,7 @@
     opacity: 80%;
 }
 
-.bikerCard a:hover {
+.skiCard a:hover {
     background-color: white;
     color: black;
     border: 1.5px solid black;
@@ -29,4 +29,9 @@
 .familyInfo a:hover {
     background-color: black;
     color: white;
+}
+
+#submit:hover,
+#email:hover {
+    border: 1px solid black;
 }
