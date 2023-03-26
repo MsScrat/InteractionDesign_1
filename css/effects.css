@@ -19,7 +19,7 @@
 }
 
 .products:hover {
-    border: 1px solid white;
+    background-color: #e6e6e6;
 }
 
 .connect a:hover,
