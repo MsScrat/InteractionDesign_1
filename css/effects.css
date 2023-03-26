@@ -22,7 +22,9 @@
     border: 1px solid white;
 }
 
-.connect a:hover {
+.connect a:hover,
+.number:hover,
+.questions h3:hover {
     opacity: 50%;
 }
 
@@ -32,6 +34,19 @@
 }
 
 #submit:hover,
-#email:hover {
+#email:hover,
+#ok:hover,
+.information a:hover {
     border: 1px solid black;
+}
+
+.number:hover,
+.questions h3:hover {
+    cursor: pointer;
+}
+
+.productInfo a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #62736F;
 }

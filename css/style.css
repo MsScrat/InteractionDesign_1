@@ -226,6 +226,13 @@ nav ul li {
     font-size: 20px;
 }
 
+.forHimHeader {
+    height: 60vh;
+    width: 100vw;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
 .displayInfo {
     margin-left: 20px;
 }
@@ -276,7 +283,8 @@ nav ul li {
 .productInfo h1 {
     font-family: "Days One", sans-serif;
     font-size: 40px;
-    margin-top: 0;
+    margin-top: -30px;
+    margin-bottom: -30px;
 }
 
 .productInfo p {
@@ -299,23 +307,204 @@ nav ul li {
     font-size: 15px;
 }
 
-.colorButtons label,
 .newsletter label {
     display: none;
 }
 
+.colorButton label {
+    font-family: "Darker Grotesque", sans-serif;
+}
 
-/* Color buttons - color */
+.colorButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
 
-#white {
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Purchase Page */
+
+
+.purchaseHeadline {
+    text-align: center;
+    font-family: "Days One", sans-serif;
+}
+
+.order {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto 30px;
+    gap: 30px;
+}
+
+.information {
     background-color: white;
+    flex: 3;
+    padding: 20px;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
-#gray {
-    background-color: gray;
+.orderForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-/*------------------------*/
+.orderForm h2 {
+    font-family: "Days One", sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.orderForm label {
+    display: none;
+}
+
+.orderForm input {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 25px;
+    width: 200px;
+}
+
+.orderForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.information a {
+    text-decoration: none;
+    color: black;
+    font-family: "Darker Grotesque", sans-serif;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px 50px;
+    width: 50px;
+    margin-left: 370px;
+}
+
+.summary {
+    background-color: white;
+    padding: 20px;
+    height: 45vh;
+    flex: 1;
+}
+
+.summary h3 {
+    font-family: "Days One", sans-serif;
+    margin-top: 0;
+}
+
+.orderInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.orderImage {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.orderImage img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
+
+.orderInfo p {
+    font-family: "Darker Grotesque", sans-serif;
+    margin: 0;
+}
+
+.orderInfo h4 {
+    font-family: "Darker Grotesque", sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+.discount {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.discount label {
+    display: none;
+}
+
+#ok {
+    height: 30px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 50px;
+}
+
+#discount {
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.shipping {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Darker Grotesque", sans-serif;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Darker Grotesque", sans-serif;
+    font-weight: bold;
+    border-top: 1px solid lightgray;
+}
+
+.help {
+    text-align: center;
+    font-family: "Darker Grotesque", sans-serif;
+    background-color: white;
+    margin: 0 30px;
+    height: 20vh;
+}
+
+
+/* Purchace Complete */
+
+.complete {
+    text-align: center;
+}
+
+.complete h2 {
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 30px;
+}
+
+.complete h1 {
+    font-family: "Days One", sans-serif;
+    font-size: 35px;
+    margin: 0;
+}
+
+/* Product Page */
+
 
 .productFeatures {
     margin: 30px 50px;
@@ -491,6 +680,101 @@ nav ul li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.customerService {
+    margin: 60px 30px;
+    text-align: center;
+}
+
+.customerService h2,
+.customerService h3 {
+    font-family: "Days One", sans-serif;
+}
+
+.customerService p {
+    font-family: "Darker Grotesque", sans-serif;
+    margin: 0;
+}
+
+.hours {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+.questions {
+    background-image: url(../images/questions.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.questions h2 {
+    font-family: "Days One", sans-serif;
+    font-size: 35px;
+    margin: 0;
+}
+
+.questions h3 {
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.message h2 {
+    font-family: "Days One", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.formInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Darker Grotesque", sans-serif;
+}
+
+.form label {
+    display: none;
+}
+
+.formInfo input {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 25px;
+    width: 200px;
+}
+
+.formInfo textarea {
+    height: 100px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.submit label {
+    display: none;
 }
 
 
