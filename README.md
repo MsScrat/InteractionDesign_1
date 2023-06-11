@@ -22,4 +22,4 @@ If you would like to follow me:
 
 ## Acknowledgments
 Besides all the teachers and students at Noroff, I would like to thank my fiance, [Emil](https://github.com/emilgab).  
-He was my inspiration for joining this study and has been my number one supporter and ruberduck for this exam.
+He was my inspiration for joining this study and has been my number one supporter and ruberduck for this assignment.
